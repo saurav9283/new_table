@@ -154,7 +154,7 @@ const Form = () => {
     <>
     <div className="filter">
       <div className="title">
-        <h1>Welcome To Form</h1>
+        <h1>Password Manager</h1>
       </div>
       <div className="search">
         <label className="label">Search by: </label>
@@ -259,6 +259,7 @@ const Form = () => {
               Visible Record {recordsToShow} - {submittedData.length}
             </h3>
             <input
+            className="inputpahe"
               type="number"
               min="1"
               max={submittedData.length}
