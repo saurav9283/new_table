@@ -1,0 +1,65 @@
+.form-container {
+    width: 300px;
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: calc(100% - 16px);
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .cancel-button,
+  .add-button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+  }
+  
+  .add-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .password-input-container {
+    position: relative;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .password-toggle-icon.hidden {
+    display: none;
+  }
+  
+  select {
+    margin-bottom: 10px;
+  }
+  
+  .form-group select {
+    width: 100%;
+  }
+  
